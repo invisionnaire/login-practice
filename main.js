@@ -21,7 +21,6 @@ loginBtn.addEventListener("click", function () {
 
             loginBtn.classList.add("hide")
             loginBtn.classList.add("hide")
-            register.classList.add("hide")
 
             for (let i = 0; i < hideInput.length; i++) {
                 hideInput[i].classList.add("hide")
@@ -45,12 +44,10 @@ logoutBtn.addEventListener("click", function() {
 });
 
 if(getStatus == "logged") {
-    loginBtn.classList.add("hide")
 
             var hideInput = document.querySelectorAll(".form-inputs")
 
             loginBtn.classList.add("hide")
-            register.classList.add("hide")
             logoutBtn.classList.remove('hide')
 
             for (let i = 0; i < hideInput.length; i++) {
