@@ -1,0 +1,63 @@
+body {
+    background: lightgrey;
+}
+
+a {
+    text-decoration: none;
+}
+
+label {
+    font-weight: bold;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.hide {
+    display: none;
+}
+
+.card {
+    background: lightcoral;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    align-self: center;
+}
+
+.card h1 {
+    color: white;
+    text-align: center;
+}
+
+.form-inputs {
+    width: 100%;
+    padding: 10px 0;
+}
+
+.btn {
+    background: white;
+    border-radius: 5px;
+    padding: .5em 3em;
+    text-align: center;
+    margin: 10px 0 0 0;
+}
+
+.btn#logoutBtn {
+    background: red;
+    color: white;
+}
+
+.btn:hover {
+    background: rgb(196, 196, 196);
+    color: white;
+    border: 1px solid red;
+}
+
+.btn#logoutBtn:hover {
+    background: rgb(126, 2, 2);
+}
