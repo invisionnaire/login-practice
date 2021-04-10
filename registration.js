@@ -8,8 +8,9 @@ register.addEventListener("click", function() {
 
     localStorage.setItem("username", userName.value )
     localStorage.setItem("password", pwd.value )
+    localStorage.setItem("status", "logged" )
     
-    console.log (userName, pwd)
-
 });
 
+var getUsername = localStorage.getItem("username")
+var getPassword = localStorage.getItem("password")
