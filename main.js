@@ -8,7 +8,7 @@ logoutBtn.classList.add('hide')
 
 
 loginBtn.addEventListener("click", function () {
-        if (username.value === "Adrian" && pwd.value === "123") {
+        if (username.value === "admin" && pwd.value === "password") {
             console.log("Welcome " + username.value)
             localStorage.setItem("username", "Logged");
             loginBtn.classList.add("hide")
