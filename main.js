@@ -6,10 +6,12 @@ var logoutBtn = document.getElementById("logoutBtn");
 
 logoutBtn.classList.add('hide')
 
+var getUsername = localStorage.getItem("username")
+var getPassword = localStorage.getItem("password")
 
 loginBtn.addEventListener("click", function () {
-        if (username.value === "admin" && pwd.value === "password") {
-            console.log("Welcome " + username.value)
+        if (username === getUsername && pwd === getPassword) {
+            console.log("Welcome " + username)
             localStorage.setItem("username", "Logged");
             loginBtn.classList.add("hide")
 
@@ -56,11 +58,4 @@ if(userLoggedIn == "Logged") {
             loginText = document.querySelector('.card h1');
             loginText.innerHTML = "You are logged in"
 }
-
-
-
-
-
-
-
 

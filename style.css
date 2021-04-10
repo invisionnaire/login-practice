@@ -45,6 +45,7 @@ label {
     padding: .5em 3em;
     text-align: center;
     margin: 10px 0 0 0;
+    border: 1px solid white;
 }
 
 .btn#logoutBtn {
@@ -60,4 +61,25 @@ label {
 
 .btn#logoutBtn:hover {
     background: rgb(126, 2, 2);
+}
+
+.registration {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.registration a {
+    color: white;
+    font-weight: bold;
+    background-color: blue;
+    padding: 5px 20px;
+    border-radius: 4px;
+}
+
+.registration a:hover {
+    background-color: rgb(2, 2, 156);
+
 }
